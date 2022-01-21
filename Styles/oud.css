@@ -1,0 +1,67 @@
+.content {
+    max-width: 95%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin:auto;
+    background-color: gray;
+}
+#left {
+    max-width: 20%;
+    display: flex;
+}
+main div {
+    max-width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.background {
+    background: rgb(40, 40, 40);
+}
+.rechterbalk {
+    position:flex; right: 0.5vw;
+}
+.linkerbalk {
+    position:left; left: 0.5vw;
+    min-width: max-content;
+}
+section span {
+    background-color: white;
+}
+#bol {
+    font-weight:bold;
+    font-family:'Times New Roman', Arial, Helvetica, sans-serif;
+}
+#masthead {
+    display: table;
+    text-align: center;
+    margin-top:3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hoofd {
+    width: 100%;
+    position:flex;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: rgb(64, 64, 64);
+    text-align: center;
+    margin-bottom:1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar {
+    position: relative;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+.navbar-title {
+    display:inline-block;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    white-space: nowrap;
+
+}

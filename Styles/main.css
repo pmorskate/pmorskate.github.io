@@ -1,0 +1,107 @@
+.content {
+    max-width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin:auto;
+    background-color: gray;
+    color: rgb(225, 225, 225);
+}
+main div {
+    max-width: 83%;
+    display:inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 2%;
+}
+main div div {
+    max-width:45%;
+    min-width: 30%;
+    margin: 1.00%;
+}
+main div div div{
+    max-width: 100%;
+    min-width: 30%;
+}
+#linkerbalk {
+    flex-direction: column;
+    max-width: 10%;
+    height: max-content;
+    margin: 1%;
+}
+.background {
+    background: rgb(40, 40, 40);
+}
+#bol {
+    font-weight:bold;
+    font-family:'Times New Roman', Arial, Helvetica, sans-serif;
+}
+footer {
+    max-width: 100%;
+    flex-direction: column;
+    margin: auto;
+    background-color: rgb(45, 45, 45);
+    color: rgb(145, 145, 145);
+}
+footer section {
+    margin-top:0.5em;
+    margin-left: 0.5em;
+    margin-right: auto;
+}
+.hoofd {
+    width: 100%;
+    position:flex;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: rgb(64, 64, 64);
+    text-align: center;
+    margin-bottom:1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar {
+    position: relative;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+.navbar-title {
+    display:inline-block;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    white-space: nowrap;
+}
+.spelltable {
+    display:flex;
+    margin-left: -5px;
+    width:100%;
+    flex-direction:row;
+}
+.spelltable span {
+    padding: 5px;
+    width:20%;
+}
+.card-header div{
+    display:flex;
+    justify-content: space-between;
+    align-content: space-around;
+    margin-left: -5px;
+    width:50%;
+    flex-direction:row;
+}
+#spellsheet{
+    background-color: rgb(40, 40, 40);
+    background-clip: border-box;
+    border: 1;
+    border-radius: 12px;
+    padding: 20px;
+    width: 40%;
+    height: 100%;
+}
+#spellsheettitle {
+    width: 100%;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
